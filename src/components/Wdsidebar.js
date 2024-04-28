@@ -6,7 +6,7 @@ export default function Wdsidebar() {
     const pathName=usePathname();
     return (
         <>
-            <div className="h-screen w-1/5 bg-sky-100 p-1 m-0">
+            <div className="h-screen w-1/5 bg-white border-r-2 p-1 m-0">
 
                 
             <div className={pathName === "/learn/webdev/html" ? "bg-violet-400 rounded m-2 h-8 transform: scale-105 duration-500 border-b-2 border-gray-500" : "bg-blue-200 transform: scale-100 duration-500 rounded m-2 h-8 border-b-2  border-gray-500"}>
