@@ -53,7 +53,7 @@ export default function Page({ userId }) {
                 and hands-on experience.
               </p>
               <Link
-                href="/learn/mern"
+                href="/learn/mern/node"
                 className="text-blue-500 hover:underline mt-4 block"
               >
                 Explore MERN Stack
