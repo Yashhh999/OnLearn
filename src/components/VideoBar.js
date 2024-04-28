@@ -5,7 +5,7 @@ export default function VideoBar({ propsValue }) {
     const [num, setNum] = useState(propsValue.num)
     const [title, setTitle] = useState(propsValue.title)
     const [description, setDescription] = useState('')
-    const [video, setVideo] = useState('')
+    const [videoLink, setVideoLink] = useState(propsValue.videoLink)
     const [value, setValue] = useState('')
     const [isRotated, setIsRotated] = useState(false)
 
@@ -27,8 +27,13 @@ export default function VideoBar({ propsValue }) {
                     </button>
                 </div>
 
-                {isRotated ? <div className="h-16  bg-gray-200">
-                    
+                {isRotated ? <div className="h-96 mr-20 rounded  bg-gray-100">
+                <div className="h-92 bg-gray-200 flex justify-center">
+                    <video width="700" height="240" controls>
+                        <source src={videoLink} type="video/mp4"/>
+                        Your browser does not support the video tag.
+                    </video>
+                </div> 
                 </div> : ''}
 
             </div>
