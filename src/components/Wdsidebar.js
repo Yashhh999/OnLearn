@@ -36,16 +36,15 @@ export default function Wdsidebar() {
 
                 <Link href="/learn/webdev/extra" className="" >
                     <div className={pathName === "/learn/webdev/extra" ? "bg-violet-400 rounded m-2 h-8 transform: scale-105 duration-500 border-b-2 border-gray-500 hover:bg-violet-500" : "bg-blue-200 hover:bg-violet-300 transform: scale-100 duration-500 rounded m-2 h-8 border-b-2  border-gray-500"}>
-                        <div className=" mx-10 text-xl text-gray-600 font-medium ">
+                        <div className="mt-10 mx-10 text-xl text-gray-600 font-medium ">
                             Extra
                         </div>
 
                     </div>
                 </Link>
-
                 <Link href="/learn/webdev/projects" className="">
                     <div className={pathName === "/learn/webdev/projects" ? "bg-violet-400 rounded m-2 h-8 transform: scale-105 duration-500 border-b-2 border-gray-500 hover:bg-violet-500" : "bg-blue-200 hover:bg-violet-300 transform: scale-100 duration-500 rounded m-2 h-8 border-b-2  border-gray-500"}>
-                        <div className=" mx-10 text-xl text-gray-600 font-medium w-28">
+                        <div className="mt-10 mx-10 text-xl text-gray-600 font-medium w-28">
                             Projects
                         </div>
 
