@@ -15,9 +15,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Nav />
-        <Wdsidebar />
+    <div className="flex bg-gray-100">
+        <Wdsidebar /> 
         {children}
-        <Footer/>
+        </div>
+        
         </body>
     </html>
   );
