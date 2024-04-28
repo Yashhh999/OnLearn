@@ -13,6 +13,7 @@ export default function VideoBar({ propsValue }) {
         e.preventDefault()
         setIsRotated(!isRotated);
     }
+    
 
     return (
         <>
@@ -28,7 +29,7 @@ export default function VideoBar({ propsValue }) {
                 </div>
 
                 {isRotated ? <div className="h-96 mr-20 rounded  bg-gray-100">
-                <div className="h-92 bg-gray-200 flex justify-center">
+                <div className=" bg-gray-200 flex justify-center h-92">
                     <video width="700" height="240" controls>
                         <source src={videoLink} type="video/mp4"/>
                         Your browser does not support the video tag.
