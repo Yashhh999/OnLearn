@@ -12,8 +12,8 @@ export default function Page() {
         <>
         <div className="w-full mr-10">
         <VideoBar propsValue={{num:"1.", title:"Introduction to HTML",videoLink:"https://cdn.pixabay.com/video/2018/01/31/14035-254146872_tiny.mp4"}}/>
-        <VideoBar propsValue={{num:"2.", title:"HTML Basics"}}/>
-        <VideoBar propsValue={{num:"3.", title:"HTML Elements"}}/>
+        <VideoBar propsValue={{num:"2.", title:"HTML Basics",videoLink:"https://cdn.pixabay.com/video/2018/01/31/14035-254146872_tiny.mp4"}}/>
+        <VideoBar propsValue={{num:"3.", title:"HTML Elements",videoLink:"https://cdn.pixabay.com/video/2018/01/31/14035-254146872_tiny.mp4"}}/>
         </div>
         </>
  )
