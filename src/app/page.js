@@ -37,7 +37,7 @@ export default function Page({ userId }) {
                 building dynamic web applications.
               </p>
               <Link
-                href="/learn/webdev"
+                href="/learn/webdev/html"
                 className="text-blue-500 hover:underline mt-4 block"
               >
                 Explore Web Development
